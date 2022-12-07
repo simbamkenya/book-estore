@@ -3,12 +3,12 @@ import React from 'react'
 function Footer() {
     // grid grid-cols-8 gap-8 py-8 px-6
   return (
-    <footer className='bg-yellow-900'>
+    <footer className='bg-yellow-900 mt-auto'>
         <div className='md:container md:mx-auto'>
             <div className='flex'>
                 <div className='w-3/6 bg-slate-400 p-6'>
-                    <div className='h-12'>
-                        <img src="/bookstore-logo.JPG"/>
+                    <div className=''>
+                        <img src="/bookstore-logo.JPG" className='h-24'/>
                     </div>
                     <div className='flex gap-6 py-4'>
                         <ul className=''>
