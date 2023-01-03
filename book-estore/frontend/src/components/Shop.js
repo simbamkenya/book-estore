@@ -3,15 +3,15 @@ import React from 'react'
 function Shop() {
   return (
     <div className='md:container md:mx-auto'>
-      <div className='flex space-x-6 bg-green-100 mb-4'>
+      <div className='flex space-x-6 bg-green-100 mb-4 '>
         <div className='w-1/5 bg-red-100'>
-          <p>jdjjjj</p>
+          <p>None</p>
         </div>
-        <div className='w-3/5 bg-yellow-100'>
-          <p>JJFAHFLS AF</p>
+        <div className='w-3/5 bg-yellow-100 h-96'>
+          <img className='object-fill max-h-full w-full' src='https://images.unsplash.com/photo-1463320726281-696a485928c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'></img>
         </div>
         <div className='w-1/5 bg-red-100'>
-          <p>FHFALH FSAKHFJLSA </p>
+          <p>Book slider</p>
         </div>
       </div>
       <div className='flex border-2 border-gray-200 mb-4'>
